@@ -9,6 +9,7 @@
     {
         RouteConfig.RegisterRoutes(RouteTable.Routes);
         BundleConfig.RegisterBundles(BundleTable.Bundles);
+        Application["counter"] = 0;
     }
 
 </script>
